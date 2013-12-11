@@ -6,7 +6,9 @@
 	<title>John's Speed Reading Trainer</title>
 
 	<!--Call the stylesheet-->
+	<!--
 	<link rel = "stylesheet" href = "css/main.css" type "text/css">
+-->
 
 	<!--jQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
