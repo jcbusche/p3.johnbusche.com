@@ -1,5 +1,5 @@
 $('#display-btn').click(function(){
-	var array1 = $('input[id$="toread"]').toArray();
+	var array1 = $("#toread").val().splice(' ');
 	var numwords = array1.length();
-	console.log("test");
+	console.log(array1);
 });
