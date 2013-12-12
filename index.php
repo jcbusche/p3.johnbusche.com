@@ -9,7 +9,7 @@
 	<!--
 	<link rel = "stylesheet" href = "css/main.css" type "text/css">
 -->
-
+	<link rel = "stylesheet" href = "css/bootstrap.css" type "text/css">
 	<!--jQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
