@@ -1,8 +1,8 @@
 $('#display-btn').click(function(){
 	var words = $("#toread").val().split(' ');
 	var numwords = words.length;
-    var chunksize = $("#chunksize").val();
-    var cpm = $("#speed").val();
+    var chunksize = parseInt($("#chunksize").val());
+    var cpm = parseInt($("#speed").val());
     var counter = 0;
     var counter2 = 0;
     console.log(words);
