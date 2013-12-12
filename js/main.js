@@ -16,10 +16,8 @@ $('#display-btn').click(function(){
         if (diff >= chunksize +1){
             for (j = 0; j < chunksize; j++) {
                 chunks[counter2] = chunks[counter2]  + words[i + j] + " ";
-                console.log(chunks);
             }
         }
-        console.log(words);
         else {
             for (j = 0; j< diff; j++){
                 chunks[counter2] = chunks[counter2] + words[i + j] + " ";
