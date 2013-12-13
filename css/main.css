@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    color: black;
+}
+.header{
+    text-align: center;
+    
+}
+
+#title{
+    font-size: 2em;
+    
+}
+
+#explanation{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #636363;   
+}
+
+.input{
+    width: 50%;
+    float: left; 
+    text-align: center;
+}
+
+#display{
+    width: 50%;
+    float: right;
+    text-align: center;
+    font-size: 1.5em;
+}

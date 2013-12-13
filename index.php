@@ -25,8 +25,7 @@
 
 	<div id = 'text-input' class = 'input'>
         <form>
-		<label for = 'toread'>Place the text for your article here:</label><br>
-		<input type='textarea' id = 'toread'>
+		<textarea id = 'toread'  rows = "10" cols = "50">Place the text for your article here.</textarea>
 		<br><br>
         <label for = "chunksize">Words per chunk<label>
         <select id = "chunksize">
