@@ -4,6 +4,7 @@ body{
 }
 .header{
     text-align: center;
+    float: center;
     
 }
 
@@ -15,7 +16,8 @@ body{
 #explanation{
     margin-left: 20%;
     margin-right: 20%;
-    color: #636363;   
+    color: #636363;  
+    font-size: 1em; 
 }
 
 .input{
@@ -28,5 +30,5 @@ body{
     width: 50%;
     float: right;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
