@@ -19,15 +19,17 @@
 
 </head>
 <body>
-	<div id = 'title'>
-		<h1>John's Speed Reading Trainer</h1>
-		<p>This is an application to help you improve your reading speed by challenging yourself to read faster.  First, copy text from an article you want to read into the box below.  Then select your word chunk size and your chunk display rate.  These will determine how many words are displayed at a time and how fast the app will cycle through them. </p>
+	<div id = 'title' class = "header">
+        <h1>John's Speed Reading Trainer</h1>
     </div>
+        <div id = "explanation" class = "header">
+        <p>This is an application to help you improve your reading speed by challenging yourself to read faster.  First, copy text from an article you want to read into the box below.  Then select your word chunk size and your chunk display rate.  These will determine how many words are displayed at a time and how fast the app will cycle through them. </p>
+        </div>
 
-	<div id = 'text-input' class = 'input'>
+    <div id = 'text-input' class = 'input'>
         <form>
-		<textarea id = 'toread'  rows = "10" cols = "50">Place the text for your article here.</textarea>
-		<br><br>
+            <textarea id = 'toread'  rows = "10" cols = "50">Place the text for your article here</textarea>
+        <br><br>
         <label for = "chunksize">Words per chunk<label>
         <select id = "chunksize">
             <option value= 1 selected >1</option>
@@ -66,16 +68,16 @@
             <option value= 260 > 260 </option>
         </select>
             
-		<input type = 'button' id = 'display-btn' value = 'READ!'>
+        <input type = 'button' id = 'display-btn' value = 'READ!'>
         
             
     </div>
 
-	<div id = 'options' class = 'input'>
+    <div id = 'options' class = 'input'>
 
-	</div>
+    </div>
 
-	<div id = 'display'>Your text will appear here.</div>
+    <div id = 'display'>Your text will appear here.</div>
 
 	
     <script src = "js/main.js"></script>
